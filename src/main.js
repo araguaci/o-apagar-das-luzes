@@ -8,7 +8,7 @@ import 'virtual:windi.css'
 const router = createRouter({
   history: createWebHistory(),
   routes: [
-    { path: '/inquerito_do_fim_do_mundo_o_apagar_das_luzes_do_direito_brasileiro', component: PdfViewer }
+    { path: '/inquerito_do_fim_do_mundo', component: PdfViewer }
   ]
 })
 

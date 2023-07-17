@@ -22,17 +22,18 @@
 </template>
 
 <script>
+import { data } from 'autoprefixer';
 import Counter from "./components/Counter.vue";
 export default {   
   mounted() {
     setTimeout(function () {
-      const pdfUrl = 'inquerito_do_fim_do_mundo_o_apagar_das_luzes_do_direito_brasileiro.pdf'
+      const pdfUrl = 'inquerito_do_fim_do_mundo.pdf'
       window.open(`/${pdfUrl}`, '_self')
     }, 10000);
   },
   methods: {
     openPdf: function() {
-      const pdfUrl = 'inquerito_do_fim_do_mundo_o_apagar_das_luzes_do_direito_brasileiro.pdf'
+      const pdfUrl = 'inquerito_do_fim_do_mundo.pdf'
       window.open(`/${pdfUrl}`, '_self')
     }
   },
@@ -40,7 +41,7 @@ export default {
     Counter,
   },
   created() {
-    document.title = "O JOGO INVISÍVEL";
+    document.title = "O apagar das luzes do Direito Brasileiro";
   } 
 }
 </script>
