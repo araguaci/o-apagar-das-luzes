@@ -20,7 +20,7 @@ let point = new Date(t);
 //console.log(point);
 let text = "loading...";
 
-const trial = Date.now() + 1000 * 22;
+const trial = Date.now() + 1000 * 12;
 /*
 const trial =
   "/?t=" +
