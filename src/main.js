@@ -1,15 +1,5 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import { createRouter, createWebHistory } from 'vue-router'
-import PdfViewer from './components/PdfViewer.vue'
-import '@/styles/index.css';
-import 'virtual:windi.css'
+import { createApp } from "vue";
+import "./style.css";
+import App from "./App.vue";
 
-const router = createRouter({
-  history: createWebHistory(),
-  routes: [
-    { path: '/inquerito_do_fim_do_mundo', component: PdfViewer }
-  ]
-})
-
-createApp(App).use(router).mount('#app')
+createApp(App).mount("#app");
