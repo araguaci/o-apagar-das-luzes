@@ -206,7 +206,7 @@ Paulo Antônio Briguet
           },
           inquerito_do_fim_do_mundo() {
               //          let url = '/static/pdf/web/demo.pdf'
-              let url = "https://github.com/araguaci/o-apagar-das-luzes/blob/main/static/pdf/web/inquerito_do_fim_do_mundo.pdf";
+              let url = "https://raw.githubusercontent.com/araguaci/o-apagar-das-luzes/main/static/pdf/web/inquerito_do_fim_do_mundo.pdf";
               window.open("/static/pdf/web/viewer.html?file=" + url);
           },
       },
