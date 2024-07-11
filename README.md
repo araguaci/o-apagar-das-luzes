@@ -63,6 +63,6 @@ Editora Educação Direito e Alta Cultura.
  
 O conteúdo desta obra é de inteira responsabilidade de seus autores.
 
- - [inquerito_do_fim_do_mundo](https://github.com/araguaci/o-apagar-das-luzes/blob/main/static/pdf/web/inquerito_do_fim_do_mundo.pdf)
+ - [inquerito_do_fim_do_mundo](https://github.com/araguaci/o-apagar-das-luzes/blob/main/public/pdf/inquerito_do_fim_do_mundo.pdf)
 
 ;-)
