@@ -71,12 +71,12 @@
           a_origem_livro1fail() {
               let url =
                   "https://github.com/araguaci/o-jogo-invisivel/raw/main/public/a_origem_livro1.pdf";
-              window.open("/pdf/web/viewer.html?file=" + url);
+              window.open("/static/pdf/web/viewer.html?file=" + url);
           },
           a_origem_livro1() {
               //          let url = '/static/pdf/web/demo.pdf'
               let url = "a_origem_livro1.pdf";
-              window.open("/pdf/web/viewer.html?file=" + url);
+              window.open("/static/pdf/web/viewer.html?file=" + url);
           },
       },
   };

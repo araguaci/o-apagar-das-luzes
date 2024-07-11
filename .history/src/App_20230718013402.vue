@@ -202,12 +202,12 @@ Paulo Antônio Briguet
           a_origem_livro1fail() {
               let url =
                   "https://github.com/araguaci/o-jogo-invisivel/raw/main/public/a_origem_livro1.pdf";
-              window.open("/static/pdf/web/viewer.html?file=" + url);
+              window.open("/pdf/web/viewer.html?file=" + url);
           },
           inquerito_do_fim_do_mundo() {
               //          let url = '/static/pdf/web/demo.pdf'
-              let url = "https://raw.githubusercontent.com/araguaci/o-apagar-das-luzes/main/static/pdf/web/inquerito_do_fim_do_mundo.pdf";
-              window.open("/static/pdf/web/viewer.html?file=" + url);
+              let url = "/pdf/web/inquerito_do_fim_do_mundo.pdf";
+              window.open("/pdf/web/viewer.html?file=" + url);
           },
       },
   };
